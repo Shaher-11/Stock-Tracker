@@ -1,24 +1,7 @@
-# README
+# Finance Tracker Social Media App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* This is the finance tracker social media app , built during the complete rails developer course to further enhance my rails skills with a lot of different features.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* The user can track the financial stock market as well as adding and following friend and searching for friends via email or username.
+* 
+* the app uses devise gem for Authentication and bootstrap for styling as well as some of rails generators.
