@@ -1,5 +1,17 @@
 @import 'bootstrap/dist/css/bootstrap';
 
-.navbar-brand {
- font-size: 3rem;
+body {
+    background-image: url(background.jpeg);
+    background-size: cover;
+    color: white;
 }
+
+.navbar {
+    font-size: 1.5rem;
+}
+.navbar-brand {
+    font-size: 2rem;
+    padding-right: 4rem;
+
+}
+
