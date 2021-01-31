@@ -13,7 +13,6 @@ body {
 .navbar-brand {
     font-size: 2rem;
     padding-right: 4rem;
-
 }
 
 .search-area {
@@ -31,5 +30,12 @@ body {
 
 @media (max-width: 480px) {
 
-    
+    .col-sm-3 {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+
+
 }
