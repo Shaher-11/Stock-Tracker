@@ -8,12 +8,24 @@ body {
 
 .navbar {
     font-size: 1.5rem;
-    margin-bottom: 15%;
+    margin-bottom: 5%;
 }
 .navbar-brand {
     font-size: 2rem;
     padding-right: 4rem;
 
+}
+
+.search-area {
+    padding-top: 5rem;
+}
+
+.no-right-padding {
+    padding-right: 0 !important;
+}
+
+.no-left-padding {
+    padding-left: 0 !important;
 }
 
 
