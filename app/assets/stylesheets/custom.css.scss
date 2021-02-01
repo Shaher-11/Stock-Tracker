@@ -29,8 +29,11 @@ body {
 
 .results-block {
 display: inline-block;
+margin-bottom: 1rem;
 }
-
+.logout-button {
+    margin-right: 10px !important;
+}
 @media (max-width: 480px) {
 
     .col-sm-3 {
@@ -39,6 +42,16 @@ display: inline-block;
         margin-top: 20px;
     }
 
-
-
+    .navbar-toggler-icon {
+        background-image: url(nav1.jpeg);
+    }
+   .navbar {
+       background-color: black !important;
+   }
 }
+
+
+
+
+
+
