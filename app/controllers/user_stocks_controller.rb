@@ -1,0 +1,3 @@
+class UserStocksController < ApplicationController
+    
+end
