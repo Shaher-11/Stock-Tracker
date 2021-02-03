@@ -13,8 +13,16 @@
      <td><strong>Email: </strong> <%= friend.email %></td>
      <td><strong>Actions: </strong> <%= link_to "View Profile", '#',
                                  class: "btn btn-sm btn-primary" %>
+    <% if current_user.not_friends_with?(friend.id) %>
      <%= link_to 'Follow friend?', '#',
-                            class: "btn btn-sm btn-primary", method: :post %></td>
+                            class: "btn btn-sm btn-primary", method: :post %>
+                  <% else %>  
+                <span class="badge badge-secondary">
+                   You are friends
+                </span>
+            <% end %>                    
+                   
+        </td>
       </tr>
       <% end %>                    
      </tbody>
