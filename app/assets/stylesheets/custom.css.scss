@@ -5,7 +5,13 @@ body {
     background-size: cover;
     color: white;
 }
+table {
+    color: #e0e4e8 !important;
+}
 
+table:hover {
+    color: rgb(236, 233, 58) !important;
+}
 .navbar {
     font-size: 1.2rem;
     margin-bottom: 5%;
