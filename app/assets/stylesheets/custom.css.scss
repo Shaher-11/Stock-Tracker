@@ -7,16 +7,18 @@ body {
 }
 
 .navbar {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 5%;
 }
 .navbar-brand {
     font-size: 2rem;
     padding-right: 4rem;
 }
-
+.user-name {
+    padding-right: 10px;
+}
 .search-area {
-    padding-top: 5rem;
+    padding-top: 4rem;
 }
 
 .no-right-padding {
@@ -35,10 +37,7 @@ margin-bottom: 1rem;
     margin-right: 10px !important;
 }
 
-.user-name {
-    padding-right: 50px;
-    padding-left: 20px;
-}
+
 @media (max-width: 480px) {
 
     .col-sm-3 {

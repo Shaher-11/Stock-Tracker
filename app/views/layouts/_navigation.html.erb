@@ -11,13 +11,17 @@
       <li class="nav-item <%= 'active' if request.path == my_portfolio_path %>" >
         <%= link_to "Portfolio", my_portfolio_path, class: 'nav-link' %>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
+    
+      <li class="nav-item <%= 'active' if request.path == my_friends_path %>">
+                        <%= link_to 'Friends', my_friends_path, class: 'nav-link' %>
+                    </li>
+
       <li class="nav-item dropdown">
+
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Profile
+             <%= fa_icon 'user' %>  <%= current_user.full_name %>
         </a>
+       
         <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
         <%= link_to edit_user_registration_path, class: 'dropdown-item text-primary' do %>
             <%= fa_icon 'edit' %> Edit profile
@@ -27,12 +31,10 @@
           <div class="dropdown-divider text-primary"></div>
           <a class="dropdown-item text-primary" href="#">Something else here</a>
         </div>
+
       </li>
     </ul>
      <ul class="navbar-nav ml-auto">
-     <li class="nav-item user-name">
-   <%= fa_icon 'user' %>  <%= current_user.full_name %>
-     </li>
      <li class="nav-item primary">
      <%= link_to("logout", destroy_user_session_path,
      class: "btn btn-danger logout-button", method: :delete)%>
