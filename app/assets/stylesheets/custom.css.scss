@@ -5,7 +5,9 @@ body {
     background-size: cover;
     color: white;
 }
-
+.my-name {
+    padding-left: 22rem !important;
+}
 .my-header {
     margin-bottom: 3rem;
 }
@@ -24,12 +26,7 @@ table:hover {
     font-size: 2rem;
     padding-right: 4rem;
 }
-.user-name {
-    padding-right: 10px;
-}
-.search-area {
-    padding-top: 4rem;
-}
+
 
 .no-right-padding {
     padding-right: 0 !important;

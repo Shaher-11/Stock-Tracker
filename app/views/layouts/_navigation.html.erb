@@ -16,7 +16,7 @@
                         <%= link_to 'Friends', my_friends_path, class: 'nav-link' %>
                     </li>
 
-      <li class="nav-item dropdown">
+      <li class="nav-item dropdown my-name">
 
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
              <%= fa_icon 'user' %>  <%= current_user.full_name %>
@@ -27,7 +27,6 @@
             <%= fa_icon 'edit' %> Edit profile
 
         <% end %>
-          <a class="dropdown-item text-primary" href="#">Another action</a>
       </li>
     </ul>
      <ul class="navbar-nav ml-auto">
@@ -37,10 +36,7 @@
      </li>
 
      </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    
   </div>
   <% end %>
 </div>
